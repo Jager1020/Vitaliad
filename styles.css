@@ -1,0 +1,38 @@
+
+.imgFilter{
+    filter: brightness(0.70);
+    height: 800px;
+    width: 1400px;
+
+}
+
+.newColorPurple{
+    background-color: #0e2d41;
+    border: none;
+    color: white;
+}
+.amor {
+ font-family: 'Lobster Two', cursive;
+}
+.logo1{
+    animation: scaleLogo 1s infinite alternate;
+}
+@keyframes scaleLogo{
+    to{
+        transform: scale(1.30);
+    }
+}
+*{
+    scroll-behavior: smooth;
+}
+.card img{
+    transition: transform 2s;
+}
+.card img:hover{
+    transform: scale(1.1)
+}
+.cardImg {
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
