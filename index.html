@@ -29,7 +29,7 @@
                         <a href="#" class="nav-link">Home</a>
                     </li>
                     <li class="nav-item active">
-                        <a href="#dime1" class="nav-link">Tu diras</a>
+                        <a href="#Productos" class="nav-link">Tu diras</a>
                     </li>
                     <li class="nav-item active">
                         <a href="#dime2" class="nav-link">Como es</a>
@@ -43,7 +43,7 @@
                         <i style="color:#507b82;" class=" fas fa-shopping-cart"></i> Carrito de shopping
                         <i  id="cart_n"></i>
                     </a>
-                    <a data-toggle="modal" data-target="#ModalCenter" class="nav-link disabled text-white" href="#">
+                    <a data-toggle="modal" data-target="#ModalCenter" class="nav-link text-white" href="#">
                         <i class="far fa-user"></i> Administrador
                     </a>
                 </form>
@@ -109,33 +109,74 @@
                 <span class="sr-only">Next</span>
             </a>
         </div><!--DIV-DE-CAROUSEL-->
+
+        <br>
+
+        <div class="container marketing">
+            <div class="row">
+                <div class="col-lg-4">
+                    <i style="color:#507b82; font-size: 10rem;" class="fas fa-heartbeat"></i>
+                    <h2>Ortopedia</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum alias magni eligendi.</p>
+                    <p><a class="btn btn-warning text-white newColorPurple" href="#" role="button">Ver Detalles &raquo;</a></p>
+                </div>
+
+                <div class="col-lg-4">
+                    <i style="color:#507b82; font-size: 10rem;" class="fas fa-fire"></i>
+                    <h2>Promociones</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum alias magni eligendi.</p>
+                    <p><a class="btn btn-warning text-white newColorPurple" href="#" role="button">Ver Detalles &raquo;</a></p>
+                </div>
+
+                <div class="col-lg-4">
+                    <i style="color:#507b82; font-size: 10rem;" class="fas fa-truck"></i>
+                    <h2>Delivery</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum alias magni eligendi.</p>
+                    <p><a class="btn btn-warning text-white newColorPurple" href="#" role="button">Ver Detalles &raquo;</a></p>
+                </div>
+            </div> <!--ROW-->
+            <h2 style="padding: 70px;" id="Productos">Productos</h2>
+            <hr>
+            <div class="row" id="productsDiv"></div>
+            <hr class="featurette-divider">
+            <div class="row" id="promotionDiv"></div>
+            <hr class="featurette-divider">
+            <div class="row" id="deliveryDiv"></div>
+            <hr class="featurette-divider">
+        </div>
+        <div class="modal fade" id="ModalCenter" tabindex="-1" role="dialog" aria-labelledby="ModalCenterTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 id="ModalLongTitle" class="modal-title">
+                            Administrador
+                        </h5>
+                        <button type="button" class="close" data-dismidd="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+
+                    </div>
+                    <form autocomplete="off" id="formA" class="text-center border border-light p-5">
+                        <p class="h4 mb-4">
+                            login
+                        </p>
+                        <input type="email" required id="emaila" class="form-control mb-4" placeholder="Email">
+                        <input type="password" required id="passworda" class="form-control mb-4" placeholder="Password">
+                        <button style="color:white;" type="submit" class="btn btn-waring btn-block">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <footer class="container">
+            <p class="float-right">
+                <a href="#">TOP</a>
+            </p>
+            <div class="row">
+                Vitalidad - ORTOPEDIA
+            </div>
+        </footer>
+
     </main>
-    <br>
-    <div class="container marketing">
-        <div class="row">
-            <div class="col-lg-4">
-                <i style="color:#507b82; font-size: 10rem;" class="fas fa-heartbeat"></i>
-                <h2>Ortopedia</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum alias magni eligendi.</p>
-                <p><a class="btn btn-warning text-white newColorPurple" href="#" role="button">Ver Detalles &raquo;</a></p>
-            </div>
-
-            <div class="col-lg-4">
-                <i style="color:#507b82; font-size: 10rem;" class="fas fa-fire"></i>
-                <h2>Promociones</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum alias magni eligendi.</p>
-                <p><a class="btn btn-warning text-white newColorPurple" href="#" role="button">Ver Detalles &raquo;</a></p>
-            </div>
-
-            <div class="col-lg-4">
-                <i style="color:#507b82; font-size: 10rem;" class="fas fa-truck"></i>
-                <h2>Delivery</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum alias magni eligendi.</p>
-                <p><a class="btn btn-warning text-white newColorPurple" href="#" role="button">Ver Detalles &raquo;</a></p>
-            </div>
-        </div> <!--ROW-->
-    </div>
-
 
 
 
